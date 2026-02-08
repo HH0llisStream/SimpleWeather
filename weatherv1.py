@@ -1,7 +1,7 @@
 import requests
 import streamlit as st
 
-api = "7f54d7b69c1c881eb524c686b05c6157"
+api = "Enter API Key Here"
 
 st.title("The Weather In ___")
 
@@ -24,3 +24,4 @@ if city:
         st.title(f"Temp: {temp}°F")
     else:
         st.write("Failed, try again.")
+
